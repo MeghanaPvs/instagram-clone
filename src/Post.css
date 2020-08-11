@@ -1,8 +1,29 @@
+.post{
+max-width:500px;
+background-color: white;
+border:1px solid lightgray; /* Each post border color is gray and thickness is 1 px */
+margin-bottom:45px; /* After each post we need a space */
+}
 .post_image
 {
     width:100%;
     object-fit: contain; 
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 .post_text{
-    font-family:normal;
+    font-family:normal; /* post text is of normal font */
+    padding:20px;
+}
+.post_header
+{
+    display: flex; /* User name and the logo should be diplayed in same row. So, use "flex" */
+    align-items: center;
+    padding: 20px;
+
+}
+.post_avatar
+{
+    margin-right: 10px; 
+
 }
