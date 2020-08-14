@@ -8,10 +8,16 @@
 .app_header{
   object-fit: contain;
   background-color: white;
-  padding:40px; 
+  padding:50px; 
+  /*40px*/
   border-bottom:1px solid lightgray;
 }
 .app_headerImage{
   height: 50px;
-  width:100px;
-}
+  width:150px;
+} 
+ .app_signup{
+  display:flex;/* to display it in a single row*/
+  flex-direction: column;
+  
+}  
